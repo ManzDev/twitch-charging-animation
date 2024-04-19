@@ -1,0 +1,16 @@
+body {
+  background: #000823;
+  font-family: Jost, sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+a {
+  color: deeppink;
+}
+
+body > .container {
+  display: grid;
+  place-items: center;
+  margin-top: 6rem;
+}

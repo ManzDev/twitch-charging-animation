@@ -1,0 +1,13 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+  <defs>
+    <path id="wavepath" d="M 0 2000 0 500 Q 144 315 288 500 t 288 0 288 0 288 0 288 0 288 0 v1000 z" />
+    <path id="motionpath" d="M -576 0 0 0" />
+  </defs>
+  <g>
+    <use href="#wavepath" y="150" fill="var(--color)">
+      <animateMotion dur="5s" repeatCount="indefinite">
+        <mpath href="#motionpath" />
+      </animateMotion>
+    </use>
+  </g>
+</svg>
